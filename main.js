@@ -52,7 +52,7 @@ for (let i = 0; i < bike.length; i++) {
 }
 console.log(minWB)
 
-console.log('Snack2')
+console.log('Snack 2')
 
 //Creare un array di oggetti di squadre di calcio.
 //Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
