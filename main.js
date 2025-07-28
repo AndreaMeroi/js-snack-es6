@@ -39,14 +39,79 @@ const bike = [
 /*Stampare a schermo la bici con peso minore.*/
 
 // select bweigh values then select lower number 
-const weightList = ['weight.Bweight']
+let minWB = bike[0]
 
 for (let i = 0; i < bike.length; i++) {
+
     const weight = bike[i];
     console.log(weight.Bweight)
 
-}
+    if (weight.Bweight < bike) {
+        minWB = bike[i];
+    }
 
+}
+console.log(minWB)
+
+console.log('Snack2')
+
+//Creare un array di oggetti di squadre di calcio.
+//Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+//Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+
+const teams = [
+    {
+        Tname: 'Inter',
+        points: 0,
+        failsDone: 0,
+        failsSuffered: 0
+
+    },
+    {
+        Tname: 'Milan',
+        points: 0,
+        failsDone: 0,
+        failsSuffered: 0
+
+    },
+    {
+        Tname: 'Juve',
+        points: 0,
+        failsDone: 0,
+        failsSuffered: 0
+
+    },
+    {
+        Tname: 'Toro',
+        points: 0,
+        failsDone: 0,
+        failsSuffered: 0
+
+    },
+    {
+        Tname: 'Samp',
+        points: 0,
+        failsDone: 0,
+        failsSuffered: 0
+
+    }
+]
+
+
+//Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
+
+
+
+
+
+
+
+
+
+
+
+
+//Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
 
 
