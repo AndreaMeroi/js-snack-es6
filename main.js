@@ -38,14 +38,19 @@ const bike = [
 
 /*Stampare a schermo la bici con peso minore.*/
 
-// select bweigh values 
+// select bweigh values then select lower number 
+const weightList = ['weight.Bweight']
 
 for (let i = 0; i < bike.length; i++) {
     const weight = bike[i];
-    console.log(weight['Bweight'])
+    console.log(weight.Bweight)
 
 }
 
 
-// select lower number 
+
+
+
+
+
 
