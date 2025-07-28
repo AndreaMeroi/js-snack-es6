@@ -1,4 +1,4 @@
-//Snack 1
+console.log('Snack 1')
 /*
 Creare un array di oggetti:
 Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.*/
@@ -6,31 +6,31 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e pe
 
 const bike = [
     {
-        Bname: 'scott'
+        Bname: 'scott',
         Bweight: 10
-    }
+    },
     {
-        Bname: 'cipollini'
+        Bname: 'cipollini',
         Bweight: 8
-    }
+    },
     {
-        Bname: 'bianchi'
+        Bname: 'bianchi',
         Bweight: 5
-    }
+    },
     {
-        Bname: 'cannondale'
+        Bname: 'cannondale',
         Bweight: 9
-    }
+    },
     {
-        Bname: 'giant'
+        Bname: 'giant',
         Bweight: 3
-    }
+    },
     {
-        Bname: 'pinarello'
+        Bname: 'pinarello',
         Bweight: 4
-    }
+    },
     {
-        Bname: 'campagnolo'
+        Bname: 'campagnolo',
         Bweight: 15
     }
 
@@ -38,4 +38,14 @@ const bike = [
 
 /*Stampare a schermo la bici con peso minore.*/
 
+// select bweigh values 
+
+for (let i = 0; i < bike.length; i++) {
+    const weight = bike[i];
+    console.log(weight['Bweight'])
+
+}
+
+
+// select lower number 
 
