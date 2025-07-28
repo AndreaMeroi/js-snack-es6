@@ -45,7 +45,7 @@ for (let i = 0; i < bike.length; i++) {
 
     const curBike = bike[i];
 
-    if (minWB.Bweight < bike[i]) {
+    if (curBike.Bweight < minWB.Bweight) {
         minWB = bike[i];
     }
 
